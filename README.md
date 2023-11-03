@@ -1,2 +1,2 @@
 # bubble-tea-test
-test project for bubble tea tui
+test todo list project for bubble tea tui
