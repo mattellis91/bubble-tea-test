@@ -68,7 +68,7 @@ func (m model) View() string {
 
 func main() {
 	p := tea.NewProgram(initModel())
-	if err := p.Start(); err != nil {
+	if _, err := p.Run(); err != nil {
 		fmt.Println("Error running program:", err)
 	}
 }
